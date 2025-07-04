@@ -1,0 +1,17 @@
+# Ignore Python cache files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+myenv/
+
+# Ignore environment variable file
+.env
+
+# Ignore Chroma DB folder (optional, local database files)
+chroma_langchain_db/
+
+# Ignore VSCode workspace settings (optional)
+.v
