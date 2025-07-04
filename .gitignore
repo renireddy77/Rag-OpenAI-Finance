@@ -5,13 +5,15 @@ _pycache_/
 *.pyd
 
 # Ignore virtual environment
-myenv/
+.venv/
 
 # Ignore environment variable file
 .env
 
 # Ignore Chroma DB folder (optional, local database files)
-chroma_langchain_db/
+chroma_financial_db1/
+# Ignore Chroma DB folder (optional, local database files)
+chroma_financial_db/
 
 # Ignore VSCode workspace settings (optional)
 .v
